@@ -1,0 +1,15 @@
+# --- Runtime ---
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+python-multipart>=0.0.9        # required by FastAPI for Form()/UploadFile
+python-dotenv>=1.0.1
+pydantic>=2.6.4
+
+# --- MongoDB (async driver) ---
+motor==3.7.1
+pymongo>=4.9,<5                # MongoDB 8.x support
+
+# --- Tests ---
+pytest>=8.0.0
+pytest-xdist>=3.6.0            # required by backend/pytest.ini
+requests>=2.31.0

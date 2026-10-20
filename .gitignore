@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and tooling caches
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
